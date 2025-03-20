@@ -88,4 +88,8 @@
   .auth-divider span {
     @apply px-3;
   }
+
+  .error-message {
+    @apply text-red-600 dark:text-red-400 font-medium;
+  }
 }
