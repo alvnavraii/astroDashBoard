@@ -1,0 +1,26 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+  "tasks": {
+    "dev": {
+      "name": "Dev Server",
+      "command": "npm run dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 4321
+      }
+    },
+    "build": {
+      "name": "Production Build",
+      "command": "npm run build"
+    },
+    "preview": {
+      "name": "Preview Build",
+      "command": "npm run preview"
+    }
+  }
+}

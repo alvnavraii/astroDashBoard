@@ -45,3 +45,43 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+# Astro Dashboard
+
+A modern dashboard built with Astro, React, and TailwindCSS. Features multi-language support (English, Spanish, and Catalan) and a dark/light theme toggle.
+
+## 🚀 Quick Start
+
+You can run this project in your browser using CodeSandbox:
+
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/alvnavraii/astroDashBoard)
+
+Or run it locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 🌍 Features
+
+- Multi-language support (🇬🇧 English, 🇪🇸 Spanish, Senyera Catalan)
+- Automatic browser language detection
+- Dark/Light theme toggle
+- Responsive design
+- Modern authentication UI
+- Custom error pages
+
+## 🛠️ Tech Stack
+
+- [Astro](https://astro.build)
+- [React](https://reactjs.org)
+- [TailwindCSS](https://tailwindcss.com)
+- TypeScript
+
+## 📝 License
+
+MIT
