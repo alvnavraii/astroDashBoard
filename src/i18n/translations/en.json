@@ -1,0 +1,64 @@
+{
+    "auth": {
+        "welcome": "Welcome Back",
+        "email": "Email",
+        "password": "Password",
+        "forgotPassword": "Forgot your password?",
+        "signIn": "Sign In",
+        "signUp": "Sign Up",
+        "noAccount": "Don't have an account?",
+        "errors": {
+            "invalidCredentials": "Invalid email or password",
+            "networkError": "Cannot connect to server. Please verify the server is running and try again.",
+            "unexpectedError": "Unexpected error. Please try again."
+        }
+    },
+    "errorPages": {
+        "401": {
+            "title": "401 - Unauthorized",
+            "heading": "Oops! Your session expired",
+            "description": "Don't worry, it happens to everyone. It's like getting locked out in your PJs... but this is easier to fix! 😅",
+            "tips": {
+                "title": "Helpful tips:",
+                "login": "✨ Sign in again",
+                "cookies": "🍪 Accept cookies (the digital ones, not the chocolate ones!)",
+                "timeout": "⏰ Next time, don't take such a long coffee break"
+            },
+            "action": "Sign In Again"
+        },
+        "invalidCredentials": {
+            "title": "401 - Unauthorized",
+            "heading": "Oops! Invalid Credentials",
+            "description": "Something doesn't match up. Don't worry! Sometimes fingers do a little dance on the keyboard 🎹",
+            "tips": {
+                "title": "What you can do:",
+                "check": "🔍 Double-check your email and password",
+                "reset": "🔑 Forgot your password? You can reset it!",
+                "support": "💬 Contact support if you're still having trouble"
+            },
+            "action": "Try Again"
+        },
+        "404": {
+            "title": "404 - Page Not Found",
+            "heading": "Oops! We're lost",
+            "description": "Looks like you've found a portal to nowhere. Don't worry! Even the best explorers get lost sometimes. 🗺️",
+            "tips": {
+                "title": "What you can do:",
+                "check": "🔍 Check the URL",
+                "home": "🏠 Go back to the homepage",
+                "contact": "💬 Contact support if you believe this is an error"
+            },
+            "action": "Back to Home"
+        }
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "back": "Back"
+    }
+}

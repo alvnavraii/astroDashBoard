@@ -1,0 +1,64 @@
+{
+    "auth": {
+        "welcome": "Bienvenido de nuevo",
+        "email": "Correo electrónico",
+        "password": "Contraseña",
+        "forgotPassword": "¿Olvidaste tu contraseña?",
+        "signIn": "Iniciar sesión",
+        "signUp": "Crear cuenta",
+        "noAccount": "¿No tienes una cuenta?",
+        "errors": {
+            "invalidCredentials": "Email o contraseña incorrectos",
+            "networkError": "No se puede conectar al servidor. Por favor, verifica que el servidor esté funcionando e inténtalo de nuevo.",
+            "unexpectedError": "Error inesperado. Por favor, inténtalo de nuevo."
+        }
+    },
+    "errorPages": {
+        "401": {
+            "title": "401 - No autorizado",
+            "heading": "¡Ups! Tu sesión expiró",
+            "description": "No te preocupes, a todos nos pasa. Es como cuando te quedas fuera de casa en pijama... ¡pero esto es más fácil de arreglar! 😅",
+            "tips": {
+                "title": "Consejos útiles:",
+                "login": "✨ Inicia sesión de nuevo",
+                "cookies": "🍪 Acepta las cookies (¡las digitales, no las de chocolate!)",
+                "timeout": "⏰ La próxima vez, no te vayas tanto tiempo de café"
+            },
+            "action": "Volver a iniciar sesión"
+        },
+        "invalidCredentials": {
+            "title": "401 - No autorizado",
+            "heading": "¡Ups! Credenciales incorrectas",
+            "description": "Parece que algo no coincide. ¡No te preocupes! A veces los dedos bailan sobre el teclado 🎹",
+            "tips": {
+                "title": "¿Qué puedes hacer?",
+                "check": "🔍 Verifica tu email y contraseña",
+                "reset": "🔑 ¿Olvidaste tu contraseña? ¡Puedes restablecerla!",
+                "support": "💬 Contacta con soporte si sigues teniendo problemas"
+            },
+            "action": "Intentar de nuevo"
+        },
+        "404": {
+            "title": "404 - Página no encontrada",
+            "heading": "¡Ups! Nos hemos perdido",
+            "description": "Parece que has encontrado un portal a la nada. ¡Tranquilo! Incluso los mejores exploradores se pierden a veces. 🗺️",
+            "tips": {
+                "title": "¿Qué puedes hacer?",
+                "check": "🔍 Verifica la URL",
+                "home": "🏠 Vuelve a la página principal",
+                "contact": "💬 Contacta con soporte si crees que esto es un error"
+            },
+            "action": "Volver al inicio"
+        }
+    },
+    "common": {
+        "loading": "Cargando...",
+        "error": "Error",
+        "success": "Éxito",
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "delete": "Eliminar",
+        "edit": "Editar",
+        "back": "Volver"
+    }
+}

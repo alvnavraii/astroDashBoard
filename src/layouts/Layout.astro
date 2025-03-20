@@ -1,0 +1,50 @@
+---
+import '../styles/globals.css';
+import ThemeToggle from '../components/ThemeToggle';
+import LanguageSelector from '../components/LanguageSelector';
+
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Astro description" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <title>{title}</title>
+        <script is:inline>
+            // Theme initialization
+            const theme = localStorage.getItem('theme');
+            if (!theme) {
+                localStorage.setItem('theme', 'dark');
+            }
+            if (theme === 'light') {
+                document.documentElement.classList.remove('dark');
+            } else {
+                document.documentElement.classList.add('dark');
+            }
+
+            // Language initialization
+            const validLanguages = ['es', 'ca', 'en'];
+            const language = localStorage.getItem('language');
+            if (!language) {
+                const browserLang = navigator.language.split('-')[0];
+                const defaultLang = validLanguages.includes(browserLang) ? browserLang : 'en';
+                localStorage.setItem('language', defaultLang);
+            }
+        </script>
+    </head>
+    <body class="bg-background text-foreground">
+        <div class="fixed top-4 right-4 flex items-center gap-4 z-50">
+            <LanguageSelector client:load />
+            <ThemeToggle client:load />
+        </div>
+        <slot />
+    </body>
+</html>

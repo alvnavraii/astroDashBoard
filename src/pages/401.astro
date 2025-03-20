@@ -1,0 +1,11 @@
+---
+import ErrorLayout from '../layouts/ErrorLayout.astro';
+import ErrorPage from '../components/ErrorPage';
+
+const type = Astro.url.searchParams.get('type') || 'session';
+const errorType = type === 'credentials' ? 'credentials' : 'session';
+---
+
+<ErrorLayout title="401">
+    <ErrorPage errorCode="401" errorType={errorType} client:load />
+</ErrorLayout>

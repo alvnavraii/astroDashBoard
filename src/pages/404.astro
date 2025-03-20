@@ -1,0 +1,8 @@
+---
+import ErrorLayout from '../layouts/ErrorLayout.astro';
+import ErrorPage from '../components/ErrorPage';
+---
+
+<ErrorLayout title="404">
+    <ErrorPage client:load errorCode="404" />
+</ErrorLayout>

@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SignInForm from '../components/SignInForm';
+import ThemeToggle from '../components/ThemeToggle';
+---
+
+<Layout title="Sign In">
+  <div class="relative min-h-screen flex items-center justify-center">
+    <div class="absolute top-4 right-4">
+      <ThemeToggle client:load />
+    </div>
+    <SignInForm client:load />
+  </div>
+</Layout>

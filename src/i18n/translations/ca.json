@@ -1,0 +1,64 @@
+{
+    "auth": {
+        "welcome": "Benvingut de nou",
+        "email": "Correu electrònic",
+        "password": "Contrasenya",
+        "forgotPassword": "Has oblidat la contrasenya?",
+        "signIn": "Iniciar sessió",
+        "signUp": "Crear compte",
+        "noAccount": "No tens un compte?",
+        "errors": {
+            "invalidCredentials": "Email o contrasenya incorrectes",
+            "networkError": "No es pot connectar al servidor. Si us plau, verifica que el servidor estigui funcionant i torna-ho a provar.",
+            "unexpectedError": "Error inesperat. Si us plau, torna-ho a provar."
+        }
+    },
+    "errorPages": {
+        "401": {
+            "title": "401 - No autoritzat",
+            "heading": "Ups! La teva sessió ha caducat",
+            "description": "No et preocupis, ens passa a tots. És com quan et quedes fora de casa en pijama... però això és més fàcil d'arreglar! 😅",
+            "tips": {
+                "title": "Consells útils:",
+                "login": "✨ Inicia sessió de nou",
+                "cookies": "🍪 Accepta les cookies (les digitals, no les de xocolata!)",
+                "timeout": "⏰ La propera vegada, no et quedis tant de temps prenent cafè"
+            },
+            "action": "Tornar a iniciar sessió"
+        },
+        "invalidCredentials": {
+            "title": "401 - No autoritzat",
+            "heading": "Ups! Credencials incorrectes",
+            "description": "Sembla que alguna cosa no coincideix. No et preocupis! De vegades els dits ballen sobre el teclat 🎹",
+            "tips": {
+                "title": "Què pots fer?",
+                "check": "🔍 Verifica el teu email i contrasenya",
+                "reset": "🔑 Has oblidat la contrasenya? Pots restablir-la!",
+                "support": "💬 Contacta amb suport si continues tenint problemes"
+            },
+            "action": "Tornar a provar"
+        },
+        "404": {
+            "title": "404 - Pàgina no trobada",
+            "heading": "Ups! Ens hem perdut",
+            "description": "Sembla que has trobat un portal al no-res. Tranquil! Fins i tot els millors exploradors es perden de vegades. 🗺️",
+            "tips": {
+                "title": "Què pots fer?",
+                "check": "🔍 Verifica la URL",
+                "home": "🏠 Torna a la pàgina principal",
+                "contact": "💬 Contacta amb suport si creus que això és un error"
+            },
+            "action": "Tornar a l'inici"
+        }
+    },
+    "common": {
+        "loading": "Carregant...",
+        "error": "Error",
+        "success": "Èxit",
+        "save": "Desar",
+        "cancel": "Cancel·lar",
+        "delete": "Eliminar",
+        "edit": "Editar",
+        "back": "Tornar"
+    }
+}
