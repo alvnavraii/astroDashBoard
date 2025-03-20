@@ -6,9 +6,9 @@ A modern authentication dashboard built with Astro and React, featuring multi-la
 
 ## 🚀 Quick Start
 
-You can run this project in your browser using CodeSandbox:
+You can run this project directly in your browser:
 
-[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/alvnavraii/astroDashBoard)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/alvnavraii/astroDashBoard)
 
 Or run it locally:
 
