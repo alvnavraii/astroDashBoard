@@ -9,6 +9,8 @@ A modern authentication dashboard built with Astro and React, featuring multi-la
 You can run this project directly in your browser:
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/alvnavraii/astroDashBoard)
+[![Open in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/alvnavraii/astroDashBoard)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/alvnavraii/astroDashBoard)
 
 Or run it locally:
 
