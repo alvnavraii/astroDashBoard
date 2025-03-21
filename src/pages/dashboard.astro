@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LateralBar from '../components/LateralBar';
+import WelcomeMessage from '../components/WelcomeMessage';
+import { getTranslation, getStoredLanguage, type Language } from '../i18n';
+
+const language = getStoredLanguage();
+const t = (key: string) => getTranslation(language, key);
+---
+
+<Layout title="Dashboard">
+    <div class="flex">
+        <LateralBar client:load />
+        <main class="flex-1 ml-16 min-h-screen bg-gray-100 dark:bg-gray-900">
+            <WelcomeMessage client:load />
+        </main>
+    </div>
+</Layout>
+
+<style>
+    @keyframes wiggle {
+        0%, 100% { transform: rotate(-5deg); }
+        50% { transform: rotate(5deg); }
+    }
+    .animate-wiggle {
+        animation: wiggle 2s ease-in-out infinite;
+    }
+</style>

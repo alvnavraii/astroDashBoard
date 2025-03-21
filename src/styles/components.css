@@ -1,0 +1,10 @@
+/* Archivo nuevo para componentes personalizados */
+.auth-form {
+  @apply max-w-md mx-auto p-6 space-y-4 bg-card rounded-lg shadow-lg;
+}
+
+.auth-input {
+  @apply w-full px-4 py-2 border rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary;
+}
+
+/* ... resto de tus clases personalizadas ... */ 

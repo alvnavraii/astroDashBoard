@@ -1,0 +1,106 @@
+{
+    "auth": {
+        "welcome": "Bienvenue",
+        "email": "Email",
+        "password": "Mot de passe",
+        "forgotPassword": "Mot de passe oublié?",
+        "signIn": "Se connecter",
+        "signUp": "S'inscrire",
+        "noAccount": "Vous n'avez pas de compte?",
+        "errors": {
+            "invalidCredentials": "Email ou mot de passe invalide",
+            "networkError": "Impossible de se connecter au serveur. Veuillez vérifier que le serveur est en cours d'exécution et réessayer.",
+            "unexpectedError": "Erreur inattendue. Veuillez réessayer."
+        }
+    },
+    "errorPages": {
+        "401": {
+            "title": "401 - Non autorisé",
+            "heading": "Oups! Votre session a expiré",
+            "description": "Ne vous inquiétez pas, ça arrive à tout le monde. C'est comme être enfermé dehors en pyjama... mais c'est plus facile à résoudre! 😅",
+            "tips": {
+                "title": "Conseils utiles:",
+                "login": "✨ Reconnectez-vous",
+                "cookies": "🍪 Acceptez les cookies (les numériques, pas les chocolatés!)",
+                "timeout": "⏰ La prochaine fois, ne prenez pas une si longue pause café"
+            },
+            "action": "Se reconnecter"
+        },
+        "invalidCredentials": {
+            "title": "401 - Non autorisé",
+            "heading": "Oups! Identifiants invalides",
+            "description": "Quelque chose ne correspond pas. Ne vous inquiétez pas! Parfois les doigts dansent sur le clavier 🎹",
+            "tips": {
+                "title": "Ce que vous pouvez faire:",
+                "check": "🔍 Vérifiez votre email et mot de passe",
+                "reset": "🔑 Mot de passe oublié? Vous pouvez le réinitialiser!",
+                "support": "💬 Contactez le support si vous avez toujours des problèmes"
+            },
+            "action": "Réessayer"
+        },
+        "404": {
+            "title": "404 - Page non trouvée",
+            "heading": "Oups! Nous sommes perdus",
+            "description": "On dirait que vous avez trouvé un portail vers nulle part. Ne vous inquiétez pas! Même les meilleurs explorateurs se perdent parfois. 🗺️",
+            "tips": {
+                "title": "Ce que vous pouvez faire:",
+                "check": "🔍 Vérifiez l'URL",
+                "home": "🏠 Retournez à la page d'accueil",
+                "contact": "💬 Contactez le support si vous pensez qu'il s'agit d'une erreur"
+            },
+            "action": "Retour à l'accueil"
+        }
+    },
+    "common": {
+        "loading": "Chargement...",
+        "error": "Erreur",
+        "success": "Succès",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "edit": "Modifier",
+        "back": "Retour"
+    },
+    "dashboard": {
+        "welcome": "Bienvenue!",
+        "ready": "Prêt à commencer la journée?",
+        "have_day": "Passez une excellente journée"
+    },
+    "users": {
+        "title": "Utilisateurs",
+        "loading": "Chargement...",
+        "description": "Gérez vos utilisateurs et leurs permissions",
+        "actions": {
+            "add": "Ajouter un utilisateur"
+        },
+        "table": {
+            "id": "ID",
+            "avatar": "Avatar",
+            "name": "Nom",
+            "email": "Email",
+            "phone": "Téléphone",
+            "active": "Actif",
+            "admin": "Admin",
+            "actions": "Actions",
+            "edit": "Modifier",
+            "delete": "Supprimer",
+            "view": "Voir"
+        }
+    },
+    "lateralBar": {
+        "menu": {
+            "users": "Utilisateurs"
+        }
+    },
+    "breadcrumb": {
+        "home": "Accueil",
+        "users": "Utilisateurs"
+    },
+    "languages": {
+        "en": "Anglais",
+        "es": "Espagnol",
+        "ca": "Catalan",
+        "fr": "Français",
+        "de": "Allemand"
+    }
+} 

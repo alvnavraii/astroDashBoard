@@ -1,32 +1,43 @@
 import es from './translations/es.json';
 import ca from './translations/ca.json';
 import en from './translations/en.json';
+import fr from './translations/fr.json';
+import de from './translations/de.json';
 
-export type Language = 'es' | 'ca' | 'en';
+export type Language = 'en' | 'es' | 'ca' | 'fr' | 'de';
 
-export const languages = {
-    es: {
-        name: 'Español',
-        flag: '🇪🇸',
-        translations: es
-    },
-    ca: {
-        name: 'Català',
-        flag: '🐲',
-        translations: ca
-    },
-    en: {
-        name: 'English',
-        flag: '🇬🇧',
-        translations: en
-    }
-} as const;
+export const languages: Record<Language, { flag: string }> = {
+    en: { flag: '🇬🇧' },
+    es: { flag: '🇪🇸' },
+    ca: { flag: '' },  // Este usa el componente CatalanFlag
+    fr: { flag: '🇫🇷' },
+    de: { flag: '🇩🇪' }
+};
 
 export type TranslationKey = keyof typeof es;
 
 export function getTranslation(lang: Language, key: string): string {
     const keys = key.split('.');
-    let current: any = languages[lang].translations;
+    let current: any;
+    switch(lang) {
+        case 'es':
+            current = es;
+            break;
+        case 'ca': 
+            current = ca;
+            break;
+        case 'en':
+            current = en;
+            break;
+        case 'fr':
+            current = fr;
+            break;
+        case 'de':
+            current = de;
+            break;
+        default:
+            current = en; // Fallback to English
+    }
     
     for (const k of keys) {
         if (current[k] === undefined) {

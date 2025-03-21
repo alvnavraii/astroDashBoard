@@ -60,5 +60,46 @@
         "delete": "Delete",
         "edit": "Edit",
         "back": "Back"
+    },
+    "dashboard": {
+        "welcome": "Welcome back!",
+        "ready": "Ready to rock this day?",
+        "have_day": "Hope you have an amazing day"
+    },
+    "users": {
+        "title": "Users",
+        "loading":"Loading...",
+        "description": "Manage your users and their permissions",
+        "actions":{
+            "add":"Add user"
+        },
+        "table": {
+            "id": "ID",
+            "avatar": "Avatar",
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "active": "Active",
+            "admin": "Admin",
+            "actions": "Actions",
+            "edit": "Edit",
+            "delete": "Delete"
+        }
+    },
+    "lateralBar": {
+        "menu": {
+            "users": "Users"
+        }
+    },
+    "breadcrumb": {
+        "home": "Home",
+        "users": "Users"
+    },
+    "languages": {
+        "en": "English",
+        "es": "Spanish",
+        "ca": "Catalan",
+        "fr": "French",
+        "de": "German"
     }
 }

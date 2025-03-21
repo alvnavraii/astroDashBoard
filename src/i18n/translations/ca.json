@@ -60,5 +60,47 @@
         "delete": "Eliminar",
         "edit": "Editar",
         "back": "Tornar"
+    },
+    "dashboard": {
+        "welcome": "Benvingut de nou!",
+        "ready": "Preparat per començar aquest dia?",
+        "have_day": "Esperem que tinguis un dia increïble"
+    },
+    "lateralBar": {
+        "menu": {
+            "users": "Usuaris"
+        }
+    },
+    "users": {
+        "title": "Usuaris",
+        "loading": "Carregant...",
+        "description": "Gestiona els teus usuaris i els seus permisos",
+        "actions": {
+            "add": "Afegir usuari"
+        },
+        "table": {
+            "id": "ID",
+            "avatar": "Avatar",
+            "name": "Nom",
+            "email": "Correu",
+            "phone": "Telèfon",
+            "active": "Actiu",
+            "admin": "Admin",
+            "actions": "Accions",
+            "edit": "Editar",
+            "delete": "Eliminar",
+            "view": "Veure"
+        }
+    },
+    "breadcrumb": {
+        "home": "Inici",
+        "users": "Usuaris"
+    },
+    "languages": {
+        "en": "Anglès",
+        "es": "Espanyol",
+        "ca": "Català",
+        "fr": "Francès",
+        "de": "Alemany"
     }
 }

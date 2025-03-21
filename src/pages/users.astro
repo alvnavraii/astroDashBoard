@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LateralBar from '../components/LateralBar';
+import UsersTable from '../components/Users';
+import { getTranslation, getStoredLanguage } from '../i18n';
+
+const language = getStoredLanguage();
+const t = (key: string) => getTranslation(language, key);
+---
+
+<Layout title={t('users.title')}>
+    <div class="flex">
+        <LateralBar client:load />
+        <main class="flex-1 ml-16 p-6 min-h-screen bg-white dark:bg-gray-900">
+            <div class="mb-6">
+                <h1 class="text-2xl font-bold text-gray-800 dark:text-white">
+                    {t('users.title')}
+                </h1>
+            </div>
+            <div class="bg-gray-50 dark:bg-gray-800 rounded-lg shadow">
+                <UsersTable client:load />
+            </div>
+        </main>
+    </div>
+</Layout> 

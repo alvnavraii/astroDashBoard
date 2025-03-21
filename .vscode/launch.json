@@ -5,7 +5,23 @@
       "command": "./node_modules/.bin/astro dev",
       "name": "Development server",
       "request": "launch",
-      "type": "node-terminal"
+      "type": "node-terminal",
+    },
+    {
+      "name": "Python: Crear Componente",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "args": ["--create-component", "about"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Crear Página",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "args": ["--create-page", "about"],
+      "console": "integratedTerminal"
     }
   ]
 }

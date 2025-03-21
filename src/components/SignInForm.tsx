@@ -41,7 +41,7 @@ const SignInForm = () => {
         try {
             const response = await AuthService.login({ email, password });
             // Si la autenticación es exitosa, redirigir al dashboard
-            window.location.replace('/');
+            window.location.replace('/dashboard');
             return;
         } catch (err) {
             if (err instanceof NetworkError) {
@@ -66,7 +66,7 @@ const SignInForm = () => {
             <h2 className="text-2xl font-bold text-center mb-6">{t('auth.welcome')}</h2>
 
             {error && (
-                <div className="bg-destructive/15 text-destructive text-sm p-3 rounded-md mb-4">
+                <div className="error-message p-3 rounded-md mb-4">
                     {error}
                 </div>
             )}

@@ -1,0 +1,106 @@
+{
+    "auth": {
+        "welcome": "Willkommen zurück",
+        "email": "E-Mail",
+        "password": "Passwort",
+        "forgotPassword": "Passwort vergessen?",
+        "signIn": "Anmelden",
+        "signUp": "Registrieren",
+        "noAccount": "Noch kein Konto?",
+        "errors": {
+            "invalidCredentials": "Ungültige E-Mail oder Passwort",
+            "networkError": "Keine Verbindung zum Server möglich. Bitte überprüfen Sie, ob der Server läuft und versuchen Sie es erneut.",
+            "unexpectedError": "Unerwarteter Fehler. Bitte versuchen Sie es erneut."
+        }
+    },
+    "errorPages": {
+        "401": {
+            "title": "401 - Nicht autorisiert",
+            "heading": "Ups! Ihre Sitzung ist abgelaufen",
+            "description": "Keine Sorge, das passiert jedem. Es ist wie ausgesperrt im Schlafanzug... aber das ist einfacher zu beheben! 😅",
+            "tips": {
+                "title": "Hilfreiche Tipps:",
+                "login": "✨ Melden Sie sich erneut an",
+                "cookies": "🍪 Akzeptieren Sie Cookies (die digitalen, nicht die mit Schokolade!)",
+                "timeout": "⏰ Nächstes Mal keine so lange Kaffeepause"
+            },
+            "action": "Erneut anmelden"
+        },
+        "invalidCredentials": {
+            "title": "401 - Nicht autorisiert",
+            "heading": "Ups! Ungültige Anmeldedaten",
+            "description": "Etwas stimmt nicht überein. Keine Sorge! Manchmal tanzen die Finger auf der Tastatur 🎹",
+            "tips": {
+                "title": "Was Sie tun können:",
+                "check": "🔍 Überprüfen Sie Ihre E-Mail und Ihr Passwort",
+                "reset": "🔑 Passwort vergessen? Sie können es zurücksetzen!",
+                "support": "💬 Kontaktieren Sie den Support, wenn Sie weiterhin Probleme haben"
+            },
+            "action": "Erneut versuchen"
+        },
+        "404": {
+            "title": "404 - Seite nicht gefunden",
+            "heading": "Ups! Wir haben uns verirrt",
+            "description": "Sieht aus, als hätten Sie ein Portal ins Nirgendwo gefunden. Keine Sorge! Auch die besten Entdecker verirren sich manchmal. 🗺️",
+            "tips": {
+                "title": "Was Sie tun können:",
+                "check": "🔍 Überprüfen Sie die URL",
+                "home": "🏠 Zurück zur Startseite",
+                "contact": "💬 Kontaktieren Sie den Support, wenn Sie glauben, dass dies ein Fehler ist"
+            },
+            "action": "Zurück zur Startseite"
+        }
+    },
+    "common": {
+        "loading": "Laden...",
+        "error": "Fehler",
+        "success": "Erfolg",
+        "save": "Speichern",
+        "cancel": "Abbrechen",
+        "delete": "Löschen",
+        "edit": "Bearbeiten",
+        "back": "Zurück"
+    },
+    "dashboard": {
+        "welcome": "Willkommen zurück!",
+        "ready": "Bereit für den Tag?",
+        "have_day": "Einen schönen Tag noch"
+    },
+    "users": {
+        "title": "Benutzer",
+        "loading": "Laden...",
+        "description": "Verwalten Sie Ihre Benutzer und deren Berechtigungen",
+        "actions": {
+            "add": "Benutzer hinzufügen"
+        },
+        "table": {
+            "id": "ID",
+            "avatar": "Avatar",
+            "name": "Name",
+            "email": "E-Mail",
+            "phone": "Telefon",
+            "active": "Aktiv",
+            "admin": "Admin",
+            "actions": "Aktionen",
+            "edit": "Bearbeiten",
+            "delete": "Löschen",
+            "view": "Ansehen"
+        }
+    },
+    "lateralBar": {
+        "menu": {
+            "users": "Benutzer"
+        }
+    },
+    "breadcrumb": {
+        "home": "Startseite",
+        "users": "Benutzer"
+    },
+    "languages": {
+        "en": "Englisch",
+        "es": "Spanisch",
+        "ca": "Katalanisch",
+        "fr": "Französisch",
+        "de": "Deutsch"
+    }
+} 
