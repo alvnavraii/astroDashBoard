@@ -1,8 +1,6 @@
 ---
 import '../styles/globals.css';
-import ThemeToggle from '../components/ThemeToggle';
-import LanguageSelector from '../components/LanguageSelector';
-
+import NavBar from '../components/NavBar';
 interface Props {
     title: string;
 }
@@ -41,10 +39,7 @@ const { title } = Astro.props;
         </script>
     </head>
     <body class="bg-background text-foreground">
-        <div class="fixed top-4 right-4 flex items-center gap-4 z-50">
-            <LanguageSelector client:load />
-            <ThemeToggle client:load />
-        </div>
+        <NavBar client:load />
         <slot />
     </body>
 </html>

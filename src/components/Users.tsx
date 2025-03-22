@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 import { Table, Avatar, Button, Spinner, Card, Breadcrumb } from "flowbite-react"
-import { HiTrash, HiHome } from "react-icons/hi"
+import { HiHome } from "react-icons/hi"
 import UserService from "../services/userService"
 import type { User } from "../models/User"
 import { getTranslation, getStoredLanguage, type Language } from "../i18n/index"

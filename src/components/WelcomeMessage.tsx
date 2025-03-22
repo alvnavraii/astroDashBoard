@@ -1,8 +1,15 @@
 import { useState, useEffect } from 'react';
 import { getTranslation, getStoredLanguage, type Language } from '../i18n';
+import AuthService from '../services/authService';
+
+interface User {
+    firstName: string;
+    lastName: string;
+}
 
 export default function WelcomeMessage() {
     const [language, setLanguage] = useState<Language>(getStoredLanguage());
+    const [user, setUser] = useState<User | null>(null);
 
     useEffect(() => {
         const handleStorageChange = () => {
@@ -16,6 +23,14 @@ export default function WelcomeMessage() {
         return () => window.removeEventListener('storage', handleStorageChange);
     }, [language]);
 
+    useEffect(() => {
+        const loadUser = async () => {
+            const currentUser = await AuthService.getCurrentUser();
+            setUser(currentUser);
+        };
+        loadUser();
+    }, []);
+
     const t = (key: string) => getTranslation(language, key);
 
     return (
@@ -25,7 +40,7 @@ export default function WelcomeMessage() {
                     🎉
                 </h1>
                 <h2 className="text-6xl font-bold text-gray-800 dark:text-gray-100 mb-8">
-                    {t("dashboard.welcome")}
+                    {user ? `${t("dashboard.welcome")}, ${user.firstName}!` : t("dashboard.welcome")}
                 </h2>
                 <p className="text-2xl text-gray-600 dark:text-gray-300 mb-4">
                     {t("dashboard.ready")}
