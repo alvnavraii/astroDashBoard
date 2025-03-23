@@ -7,8 +7,8 @@ export interface User {
     lastName: string;
     phone: string;
     avatarUrl: string;
-    isActive: boolean;
-    isAdmin: boolean;
+    active: boolean;
+    admin: boolean;
     createdBy: number;
     updatedBy: number;
     createdAt: Date;

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { FaHome, FaDatabase, FaUsers } from 'react-icons/fa';
+import { FaHome, FaDatabase, FaUsers, FaSignOutAlt } from 'react-icons/fa';
 import { getTranslation, getStoredLanguage, type Language } from '../i18n';
+import AuthService from '../services/authService';
 
 export default function LateralBar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,12 @@ export default function LateralBar() {
 
     const t = (key: string) => {
         return getTranslation(language, key);
+    };
+
+    const handleLogout = () => {
+        // Implementa la lógica para cerrar sesión
+        AuthService.logout();
+        window.location.href = '/signin';
     };
 
     return (
@@ -36,8 +43,10 @@ export default function LateralBar() {
                     <FaDatabase className="w-5 h-5 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" />
                 </button>
 
+               
+
                 {isOpen && (
-                    <div className="fixed left-12 top-[72px] bg-white dark:bg-gray-800 rounded-lg shadow-lg py-2 min-w-[160px]">
+                    <div className="fixed left-12 top-[125px] bg-white dark:bg-gray-800 rounded-lg shadow-lg py-2 min-w-[160px]">
                         <a 
                             href="/users" 
                             className="flex items-center px-4 py-2 text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white transition-colors"

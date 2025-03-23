@@ -8,7 +8,7 @@ interface User {
 }
 
 export default function WelcomeMessage() {
-    const [language, setLanguage] = useState<Language>(getStoredLanguage());
+    const [language, setLanguage] = useState<Language>('en');
     const [user, setUser] = useState<User | null>(null);
 
     useEffect(() => {
@@ -32,6 +32,10 @@ export default function WelcomeMessage() {
     }, []);
 
     const t = (key: string) => getTranslation(language, key);
+
+    useEffect(() => {
+        setLanguage(getStoredLanguage())
+    }, [])
 
     return (
         <div className="min-h-screen flex items-center justify-center">
