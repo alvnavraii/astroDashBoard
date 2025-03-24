@@ -13,6 +13,13 @@
             "unexpectedError": "Unexpected error. Please try again."
         }
     },
+    "nav": {
+        "home": "Home",
+        "profile": "Profile",
+        "database": "Database",
+        "users": "Users",
+        "logout": "Logout"
+    },
     "errorPages": {
         "401": {
             "title": "401 - Unauthorized",
@@ -101,5 +108,11 @@
         "ca": "Catalan",
         "fr": "French",
         "de": "German"
+    },
+    "profile": {
+        "personalInfo": "Personal Information",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email"
     }
 }

@@ -14,7 +14,6 @@ const NavBar = () => {
     const [user, setUser] = useState<User | null>(null);
 
     useEffect(() => {
-        console.log('Efecto iniciado');
         (async () => {
             try {
                 const currentUser = await AuthService.getCurrentUser();
@@ -27,7 +26,7 @@ const NavBar = () => {
     }, []);
 
     return (
-        <nav className="fixed top-0 left-0 w-full h-[5rem] bg-background z-50">
+        <nav className="fixed top-0 left-0 w-full h-[5rem] bg-background z-50 shadow-lg dark:shadow-gray-800">
             <div className="max-w-7xl mx-auto px-4 h-full relative">
                 <div className="fixed top-2 left-20  items-center justify-left h-full">
                    {user && <Avatar

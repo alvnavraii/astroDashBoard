@@ -13,6 +13,13 @@
             "unexpectedError": "Unerwarteter Fehler. Bitte versuchen Sie es erneut."
         }
     },
+    "nav": {
+        "home": "Startseite",
+        "profile": "Profil",
+        "database": "Datenbank",
+        "users": "Benutzer",
+        "logout": "Abmelden"
+    },
     "errorPages": {
         "401": {
             "title": "401 - Nicht autorisiert",
@@ -102,5 +109,11 @@
         "ca": "Katalanisch",
         "fr": "Französisch",
         "de": "Deutsch"
+    },
+    "profile": {
+        "personalInfo": "Persönliche Informationen",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail"
     }
-} 
+}

@@ -6,12 +6,20 @@
         "forgotPassword": "¿Olvidaste tu contraseña?",
         "signIn": "Iniciar sesión",
         "signUp": "Crear cuenta",
+     
         "noAccount": "¿No tienes una cuenta?",
         "errors": {
             "invalidCredentials": "Email o contraseña incorrectos",
             "networkError": "No se puede conectar al servidor. Por favor, verifica que el servidor esté funcionando e inténtalo de nuevo.",
             "unexpectedError": "Error inesperado. Por favor, inténtalo de nuevo."
         }
+    },
+    "nav": {
+        "home": "Inicio",
+        "profile": "Perfil",
+        "database": "Base de datos",
+        "users": "Usuarios",
+        "logout": "Cerrar sesión"
     },
     "errorPages": {
         "401": {
@@ -102,5 +110,11 @@
         "ca": "Catalán",
         "fr": "Francés",
         "de": "Alemán"
+    },
+    "profile": {
+        "personalInfo": "Información personal",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "email": "Email"
     }
 }

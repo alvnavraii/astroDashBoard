@@ -13,6 +13,13 @@
             "unexpectedError": "Error inesperat. Si us plau, torna-ho a provar."
         }
     },
+    "nav": {
+        "home": "Inici",
+        "profile": "Perfil",
+        "database": "Base de dades",
+        "users": "Usuaris",
+        "logout": "Tancar sessió"
+    },
     "errorPages": {
         "401": {
             "title": "401 - No autoritzat",
@@ -102,5 +109,11 @@
         "ca": "Català",
         "fr": "Francès",
         "de": "Alemany"
+    },
+    "profile": {
+        "personalInfo": "Informació personal",
+        "firstName": "Nom",
+        "lastName": "Cognom",
+        "email": "Email"
     }
 }

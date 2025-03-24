@@ -13,6 +13,13 @@
             "unexpectedError": "Erreur inattendue. Veuillez réessayer."
         }
     },
+    "nav": {
+        "home": "Accueil",
+        "profile": "Profil",
+        "database": "Base de données",
+        "users": "Utilisateurs",
+        "logout": "Déconnexion"
+    },
     "errorPages": {
         "401": {
             "title": "401 - Non autorisé",
@@ -102,5 +109,11 @@
         "ca": "Catalan",
         "fr": "Français",
         "de": "Allemand"
+    },
+    "profile": {
+        "personalInfo": "Informations personnelles",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "Email"
     }
-} 
+}

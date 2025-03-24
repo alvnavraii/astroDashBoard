@@ -38,6 +38,10 @@ class AuthService {
         return null;
     }
 
+    static getToken(): string | null {
+        return this.getCookie();
+    }
+
     private static decodeToken(token: string): any {
         try {
             const base64Url = token.split('.')[1];
@@ -106,10 +110,6 @@ class AuthService {
             console.error('Logout error:', error);
             throw error;
         }
-    }
-
-    static getToken(): string | null {
-        return this.getCookie();
     }
 
     static isAuthenticated(): boolean {
